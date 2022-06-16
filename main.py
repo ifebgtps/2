@@ -7,7 +7,7 @@ def main():
 	print(f"\t   SC Made by iFeb ")
 	print("="*64)
 	maxerr = 0 # Avoid Ban when User AFK.
-	api = "kitkabackend.eastus.cloudapp.azure.com:5010"
+	api = str(input("url:"))
 	ext = str(input("Ext: "))
 	raw = str(input("Raw Data: "))
 	auth = str(input("Auth Key: "))
